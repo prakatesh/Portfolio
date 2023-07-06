@@ -22,8 +22,9 @@ html{
 
 body
 {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background-color:#1f242d;
+    color: #fff;
+    
 }
  
 .header{
@@ -32,7 +33,7 @@ body
     left: 0;
     width: 100%;
     pad: 2rem 9%;
-    background: var(--bg-color);
+    background-color: #1f242d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,11 +41,17 @@ body
 }
 .logo{
     font-style: 2.5rem;
-    color: var(--text-color);
+    color:#fff;
     font-weight: 600;
     cursor: default;
 }
 .navbar a{
     font-size:1.7rem;
-    
+    color:#fff;
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:#0ef
 }
