@@ -44,8 +44,10 @@ body
     color:#fff;
     margin-left: 4rem;
     transition: .3s;
+    text-decoration: none;
+
 }
 
 .navbar a:hover{
-    color:#0ef
+    color: #0ef;    
 }

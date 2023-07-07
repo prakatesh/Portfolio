@@ -1,0 +1,38 @@
+.card{
+    box-shadow: #0ef 0px 1px 4px, #0ef 0px 0px 0px 3px;
+    background: #323946;
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+
+.services{
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon-services {
+    font-size: 5vh;
+    color: #0ef;
+}
+
+.heading-services h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.services-content p{
+    margin-top: 1vh;
+    font-size: 2rem;
+}
+
+.card:hover{
+    background-color:#0ef;
+    color: rgb(10, 46, 60);
+}
+
+.icon-services :hover{
+    color: rgb(12, 5, 5);
+}
