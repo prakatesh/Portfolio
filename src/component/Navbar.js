@@ -10,6 +10,7 @@ function Navbar() {
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
+                <a href="#">Education</a>
                 <a href="#">Contact</a>
             </nav>
         </header>

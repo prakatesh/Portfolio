@@ -1,5 +1,6 @@
 
 import About from './component/About';
+import Education from './component/Education';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Services from './component/Services';
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Services/>
       <Work/>
+      <Education/>
     </div>
   );
 }
