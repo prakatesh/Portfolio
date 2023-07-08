@@ -62,3 +62,7 @@ section
  .btn:hover{
     box-shadow: none;
  }
+
+ span{
+   color:#0ef;
+ }
