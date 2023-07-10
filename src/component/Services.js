@@ -2,7 +2,8 @@ import React from 'react'
 import '../asset/style/services.css'
 function Services() {
   return (
-    <div className='services'>
+    <div >
+        <section className='services'>
         <h2 style={{textAlign:"center",fontSize:"4.5rem" }}>Our <span style={{color:"#0ef"}}>Services</span></h2>
       <div className="row">
         <div className="col-md-4">
@@ -94,6 +95,7 @@ function Services() {
             
         </div>
       </div>
+      </section>
     </div>
   )
 }

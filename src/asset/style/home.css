@@ -2,35 +2,39 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: #1f242d;
 }
 section
 {
-   min-height: 100vh;
+   padding: 4rem;
+   min-height: 76.5vh;
    /* padding: 1px 9% 2rem; */
 }
 .home-content h3 {
-   font-size: 3.2rem;
+   font-size: 4.2rem;
    font-weight: 700;
 }
 
 .home-content h1 {
-   font-size: 5.6rem;
+   font-size: 6.6rem;
    font-weight: 700;
 }
-
 .home-img img{
-   width:66vh;
-   margin-right: 6rem;
+   width:200vh;
+   margin-right: 8rem;
 }
- .home-content p{
+.home-content p{
    font-size: 1.6rem;
- }
- .social-media a{
+}
+.span{
+   min-height: 19vh;
+}
+.social-media a{
    display: inline-flex;
    justify-content: center;
    align-items: center;
-   width: 4rem;
-   height: 4rem;
+   width: 5rem;
+   height: 5rem;
    background:transparent;
    border: .2rem solid #0ef;
    border-radius: 50%;
@@ -60,9 +64,9 @@ section
     transition: .5 ease;
  }
 
- .btn:hover{
+ /* .btn:hover{
     box-shadow: none;
- }
+ } */
 
  span{
    color:#0ef;
@@ -115,8 +119,8 @@ section
 
  .home-img{
    justify-self: center;
-    width: 190px;
-    height: 293px;
+    width: 350px;
+    height: 400px;
     background:  linear-gradient(180deg,
     hsla(var(--first-hue),var(--sat),var(--lig), 1),
     hsla(var(--first-hue),var(--sat),var(--lig), .2));
@@ -125,4 +129,5 @@ section
     align-items: flex-end;
     justify-content: center;
     overflow: hidden;
+    margin-top: 5rem;
  }

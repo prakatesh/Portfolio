@@ -1,34 +1,36 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../asset/style/home.css'
 import image from '../asset/Image/pic-removebg-preview.png'
 import Typed from 'typed.js'
-function Home() {
+import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
+function Home({value}) {
   const el = React.useRef(null)
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [`<h3>Hello,It's Me</h3><h1><span>Prakatesh</span> Balakrishnan</h1>`,`<h3>And I'm a <span style={{color:"#0ef"}}>Full Stack-Developer</span></h3>`],
-      typeSpeed: 100,
+      strings:[`<h3>Hello,It's Me</h3><h1><span>Prakatesh</span></h1>`,`<h3>And I'm a <br><h1><span style={{color:"#0ef"}}>Full Stack-Developer</span></h1></h3>`],
+      typeSpeed: 20,
       loop:true
     });
   });
-
   return (
     <div >
+      <Navbar value={value}/>
       <section className='home'>
         <div  className='home-content col-md-6'>
-            <p ref={el}></p>
-            <p></p>
-            <div className='social-media' >
-                <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
-                <a  href="#"><box-icon name='linkedin' type='logo' ></box-icon></a>
-                <a href="#"><box-icon name='github' type='logo' ></box-icon></a>
+            <p className='span' ref={el}></p>
+            <div className='social-media'>
+                <a href="https://www.instagram.com/prakatesh_bm/"><box-icon type='logo' name='instagram'></box-icon></a>
+                <a  href="https://www.linkedin.com/in/prakatesh/"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                <a href="https://github.com/prakatesh"><box-icon name='github' type='logo' ></box-icon></a>
             </div>
-            <a className='btn'href="#">Download CV</a>
+            <a className='btn'href="../asset/Image/Prakatesh_Resume" download="">Download CV</a>
         </div>
         <div className="home-img col-md-6">
-        <img src={image} alt="image-on-home" />
+        <img src={image} alt="image-on-home"/>
       </div>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }
