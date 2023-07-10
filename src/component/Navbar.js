@@ -1,21 +1,52 @@
-import React from 'react'
+import React from 'react';
+import {Collapse, Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem} from 'reactstrap';
+import {NavLink} from 'react-router-dom'
 import '../asset/style/navbar.css'
-function Navbar() {
-  return (
-    <div>
-        <header className='header'>
-            <a href="#" className='logo'>Portfolio</a>
+import images from '../asset/Image/iconl.png'
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
 
-            <nav className='navbar'>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Education</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-    </div>
-  )
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  render() {
+    return (
+      <div>
+        <Navbar style={{backgroundColor:""}}  light expand="md">
+          <NavbarBrand to="/"><img style={{width:"15rem",height:"12vh",cursor:"pointer"}} src={images} alt="icon"/></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen}  navbar>
+            <Nav className="ml-auto" navbar style={{marginLeft:"20vh"}}>
+              <NavItem >
+                <NavLink  to="/" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i className="fa-solid fa-home" /></span>Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/about" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i className="fa-solid fa-user" /></span>About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/services" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i className="fa-solid fa-book" /></span>Services</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/education" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i class="fa-solid fa-user-graduate"></i></span>Education</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/works" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i class="fa-solid fa-laptop-file"></i></span>Works</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/contact" style={{paddingLeft:"8vh",color:"white",textDecoration:"none"}}><span style={{color:"white",paddingRight:"1vh"}}><i className="fa-solid fa-phone-volume"/></span>Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 }
-
-export default Navbar

@@ -7,17 +7,19 @@ import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Services from './component/Services';
 import Work from './component/Work';
-
+import {Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <div >
       <Navbar/>
-      <Home/>
-      <About/>
-      <Services/>
-      <Work/>
-      <Education/>
-      <Contact/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/education' element={<Education/>}/>
+        <Route path='/works' element={<Work/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes>
       <Footer/>
     </div>
   );

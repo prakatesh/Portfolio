@@ -21,7 +21,7 @@ body
     color: #fff;
 }
  
-.header{
+/* .header{
     position: fixed;
     top: 0;
     left: 0;
@@ -32,22 +32,19 @@ body
     justify-content: space-between;
     align-items: center;
     z-index: 100px;
-}
-.logo{
+} */
+/* .logo{
     font-style: 2.5rem;
     color:#fff;
     font-weight: 600;
     cursor: default;
-}
+} */
 .navbar a{
     font-size:1.7rem;
-    color:#fff;
     margin-left: 4rem;
-    transition: .3s;
-    text-decoration: none;
 
 }
 
-.navbar a:hover{
+.navbar1 a:hover{
     color: #0ef;    
 }
