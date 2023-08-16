@@ -1,8 +1,11 @@
 import React from 'react'
 import '../asset/style/education.css'
-function Education() {
+import Navbar from '../component/Navbar'
+import Footer from './Footer'
+function Education({value}) {
   return (
     <div>
+      <Navbar value={value}/>
       <section className='education'>
         <h2 className="heading">Education</h2>
         <div className="education-container">
@@ -62,6 +65,7 @@ function Education() {
         </div>
         </div>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }

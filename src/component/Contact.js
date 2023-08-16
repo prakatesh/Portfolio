@@ -1,8 +1,11 @@
 import React from 'react'
 import '../asset/style/contact.css'
-function Contact() {
+import Navbar from '../component/Navbar'
+import Footer from './Footer'
+function Contact({value}) {
   return (
     <div>
+      <Navbar value={value}/>
       <section className='contact'>
         <h2 className='heading'>Contact<span style={{color:"#0ef"}}>Me!</span></h2>
         <form action="">
@@ -18,6 +21,7 @@ function Contact() {
           <input type="submit" value="Send Message" className='btn' />
         </form>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }

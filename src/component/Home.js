@@ -7,7 +7,7 @@ import Footer from '../component/Footer'
 function Home({value}) {
   const el = React.useRef(null)
   React.useEffect(() => {
-    const typed = new Typed(el.current, {
+    new Typed(el.current, {
       strings:[`<h3>Hello,It's Me</h3><h1><span>Prakatesh</span></h1>`,`<h3>And I'm a <br><h1><span style={{color:"#0ef"}}>Full Stack-Developer</span></h1></h3>`],
       typeSpeed: 20,
       loop:true

@@ -49,7 +49,7 @@ export default class Example extends React.Component {
       </Navbar>
       :
       <Navbar style={{backgroundColor:"#1f242d"}}  light expand="md">
-        <NavbarBrand to="/"><img style={{width:"15rem",height:"12vh",cursor:"pointer"}} src={images} alt="icon"/></NavbarBrand>
+        <NavbarBrand to="/"><img style={{width:"9rem",height:"8vh",cursor:"pointer"}} src={images} alt="icon"/></NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen}  navbar>
           <Nav className="ml-auto" navbar style={{marginLeft:"20vh"}}>

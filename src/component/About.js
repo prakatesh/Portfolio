@@ -1,9 +1,12 @@
 import React from 'react'
 import image from '../asset/Image/pic-removebg-preview.png'
 import '../asset/style/about.css'
-function About() {
+import Navbar from './Navbar'
+import Footer from './Footer'
+function About({value}) {
   return (
     <div>
+      <Navbar value={value}/>
       <section className='about'>
         <div className="about-img">
           <img src={image} alt="about" />
@@ -15,6 +18,7 @@ function About() {
           <a href="#" className='btn'>Read more</a>
         </div>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }

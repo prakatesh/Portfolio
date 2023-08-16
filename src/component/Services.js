@@ -1,8 +1,11 @@
 import React from 'react'
 import '../asset/style/services.css'
-function Services() {
+import Navbar from '../component/Navbar'
+import Footer from './Footer'
+function Services({value}) {
   return (
     <div >
+        <Navbar value={value}/>
         <section className='services'>
         <h2 style={{textAlign:"center",fontSize:"4.5rem" }}>Our <span style={{color:"#0ef"}}>Services</span></h2>
       <div className="row">
@@ -96,6 +99,7 @@ function Services() {
         </div>
       </div>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }

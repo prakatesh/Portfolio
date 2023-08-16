@@ -1,9 +1,12 @@
 import React from 'react'
 import '../asset/style/works.css'
 import image from '../asset/Image/sago.png'
-function Work() {
+import Navbar from '../component/Navbar'
+import Footer from './Footer'
+function Work({value}) {
   return (
     <div>
+      <Navbar value={value}/>
       <section className='works'>
         <h2 className="heading">Latest <span style={{color:"#0ef"}}>Project</span></h2>
          <div className="works-container">
@@ -57,6 +60,7 @@ function Work() {
          </div>
          </div>
       </section>
+      <Footer value={value}/>
     </div>
   )
 }
