@@ -1,5 +1,5 @@
 import React from 'react';
-import {Collapse, Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem} from 'reactstrap';
+import {Collapse, Navbar,  NavbarToggler,  Nav,  NavItem} from 'reactstrap';
 import {NavLink} from 'react-router-dom'
 import '../asset/style/navbar.css'
 import images from '../asset/Image/iconl.jpg'
@@ -49,7 +49,7 @@ export default class Example extends React.Component {
       </Navbar>
       :
       <Navbar style={{backgroundColor:"#1f242d"}}  light expand="md">
-        <NavbarBrand to="/"><img style={{width:"9rem",height:"8vh",cursor:"pointer"}} src={images} alt="icon"/></NavbarBrand>
+        <NavLink to="/"><img style={{width:"9rem",height:"8vh",cursor:"pointer"}} src={images} alt="icon"/></NavLink>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen}  navbar>
           <Nav className="ml-auto" navbar style={{marginLeft:"20vh"}}>
