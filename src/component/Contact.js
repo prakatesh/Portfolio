@@ -7,7 +7,7 @@ function Contact({value}) {
     <div>
       <Navbar value={value}/>
       <section className='contact'>
-        <h2 className='heading'>Contact<span style={{color:"#0ef"}}>Me!</span></h2>
+        <h2 className='heading'><span style={{color:"#0ef"}}>Contact Me!</span></h2>
         <form action="">
           <div className="input-box">
             <input type="text" placeholder='Full Nmae' />

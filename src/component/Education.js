@@ -17,50 +17,51 @@ function Education({value}) {
           <h3>SSLC Schoolings</h3>
           </div>
           <div className="detail-education">
-          <p>Did my schoolings in Vivekanandha Vidhyalay, Muthur. Ranked Taluk FIRST and School FIRST in SSLC by securing 98.6%. </p>
+          <p>Did my schoolings in Jaivins Academy <b>(CBSE)</b>, Attur with securing 76.4%. </p>
           </div>
         </div>
         <div className='card-education'>
           <div className="year-title">
-            <h3>2016-2018</h3>
+            <h3>2018-2020</h3>
           </div>
           <div className="eduction-title">
-          <h3>SSLC Schoolings</h3>
+          <h3>Higher Secondary</h3>
           </div>
           <div className="detail-education">
-          <p>Did my schoolings in Vivekanandha Vidhyalay, Muthur. Ranked Taluk FIRST and School FIRST in SSLC by securing 98.6%. </p>
+          <p>Did my Higher Secondary in Maharishi Vidya Mandir<b>(CBSE)</b>, HOSUR with 79.6% and faced JEEE entrance examinations. </p>
           </div>
         </div><div className='card-education'>
           <div className="year-title">
-            <h3>2016-2018</h3>
+            <h3>2020-2024</h3>
           </div>
           <div className="eduction-title">
-          <h3>SSLC Schoolings</h3>
+          <h3>Software Engineering</h3>
           </div>
           <div className="detail-education">
-          <p>Did my schoolings in Vivekanandha Vidhyalay, Muthur. Ranked Taluk FIRST and School FIRST in SSLC by securing 98.6%. </p>
+          <p>Pursuing my bachelors in Computer Science Engineering from Kongu Engineering College, Perundurai with current CGPA of <b>9.11</b>. </p>
           </div>
         </div>
         <div className='card-education'>
           <div className="year-title">
-            <h3>2016-2018</h3>
+            <h3>2022-2023</h3>
           </div>
           <div className="eduction-title">
-          <h3>SSLC Schoolings</h3>
+          <h3>Internship</h3>
           </div>
           <div className="detail-education">
-          <p>Did my schoolings in Vivekanandha Vidhyalay, Muthur. Ranked Taluk FIRST and School FIRST in SSLC by securing 98.6%. </p>
+          <p>Completed an Internship from IDoT Pvt Ltd... , there completed our college landing page. </p>
           </div>
         </div>
         <div className='card-education'>
           <div className="year-title">
-            <h3>2016-2018</h3>
+            <h3>2022-2023</h3>
           </div>
           <div className="eduction-title">
-          <h3>SSLC Schoolings</h3>
+          <h3>Consultancy Project</h3>
           </div>
           <div className="detail-education">
-          <p>Did my schoolings in Vivekanandha Vidhyalay, Muthur. Ranked Taluk FIRST and School FIRST in SSLC by securing 98.6%. </p>
+          <p>Currently doing a consultancy project for SFS Factory. There developing a full stack <b>(MERN)</b> application.  </p>
+          <a href='https://srielumalaiyan.netlify.app/'>Read more</a>
           </div>
         </div>
         </div>
