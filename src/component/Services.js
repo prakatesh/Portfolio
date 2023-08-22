@@ -9,7 +9,7 @@ function Services({value}) {
         <section className='services'>
         <h2 style={{textAlign:"center",fontSize:"4.5rem" }}>Our <span style={{color:"#0ef"}}>Services</span></h2>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
                 <div className="card">
                     <div className="icon-services">
                     <i  class="fa-solid fa-pager"></i>
@@ -22,7 +22,7 @@ function Services({value}) {
                     </div>
                 </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-up" data-aos-offset="200" data-aos-duration="1000">
            
                 <div className="card">
                     <div className="icon-services">
@@ -36,7 +36,7 @@ function Services({value}) {
                     </div>
                 </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-right" data-aos-offset="200" data-aos-duration="1000">
             <div className='card'>
              
                     <div className="icon-services">
@@ -52,7 +52,7 @@ function Services({value}) {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
           
                 <div className="card">
                     <div className="icon-services">
@@ -67,7 +67,7 @@ function Services({value}) {
                 </div>
            
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-up" data-aos-offset="200" data-aos-duration="1000">
             <div className='services'>
                 <div className="card">
                     <div className="icon-services">
@@ -82,7 +82,7 @@ function Services({value}) {
                 </div>
             </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="flip-right" data-aos-offset="200" data-aos-duration="1000">
            
                 <div className="card">
                     <div className="icon-services">

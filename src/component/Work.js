@@ -15,7 +15,7 @@ function Work({value}) {
       <section className='works'>
         <h2 className="heading">Latest <span style={{color:"#0ef"}}>Project</span></h2>
          <div className="works-container">
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000" >
             <img style={{width:"100%"}} src={image1} alt="" />
             <div className="works-layer">
                 <h4>SES Factory</h4>
@@ -23,7 +23,7 @@ function Work({value}) {
                 <a href="https://srielumalaiyan.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
             <img src={image2} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Mech Ranger</h4>
@@ -31,7 +31,7 @@ function Work({value}) {
                 <a href="https://github.com/prakatesh/machinery-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
             <img src={image3} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Carrier Express</h4>
@@ -39,7 +39,7 @@ function Work({value}) {
                 <a href="https://github.com/prakatesh/Carrier_Express"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
             <img src={image4} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Face Counting</h4>
@@ -47,7 +47,7 @@ function Work({value}) {
                 <a href="https://github.com/prakatesh/OpenCV"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
             <img src={image5} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Keep Notes</h4>
@@ -55,7 +55,7 @@ function Work({value}) {
                 <a href="https://github.com/prakatesh/Keep_Notes"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
-         <div className="works-box">
+         <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
             <img src={image6} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>QuizApp-React</h4>

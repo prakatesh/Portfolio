@@ -4,6 +4,7 @@ import image from '../asset/Image/pic-removebg-preview.png'
 import Typed from 'typed.js'
 import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'
+import 'aos/dist/aos.css';
 function Home({value}) {
   const el = React.useRef(null)
   React.useEffect(() => {
@@ -17,7 +18,7 @@ function Home({value}) {
     <div >
       <Navbar value={value}/>
       <section className='home'>
-        <div  className='home-content col-md-6'>
+        <div data-aos="fade-right"data-aos-offset="200" data-aos-duration="1000" className='home-content col-md-6'>
             <p className='span' ref={el}></p>
             <div className='social-media'>
                 <a href="https://www.instagram.com/prakatesh_bm/"><box-icon type='logo' name='instagram'></box-icon></a>
@@ -26,8 +27,8 @@ function Home({value}) {
             </div>
             <a className='btn'href="../asset/Image/Prakatesh_Resume" download="">Download CV</a>
         </div>
-        <div className="home-img col-md-6">
-        <img src={image} alt="image-on-home"/>
+        <div data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" className="home-img col-md-6">
+        <img src={image} alt="al"/>
       </div>
       </section>
       <Footer value={value}/>
