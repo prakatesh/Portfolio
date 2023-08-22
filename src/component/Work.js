@@ -19,7 +19,7 @@ function Work({value}) {
             <img style={{width:"100%"}} src={image1} alt="" />
             <div className="works-layer">
                 <h4>SES Factory</h4>
-                <p>Developing website for managing the goods for my native place and Technologies used is ReactJS,NodeJs,MongoDB,Express</p>
+                <p>Developing website for managing the goods for my native place.</p>
                 <a href="https://srielumalaiyan.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
@@ -27,7 +27,7 @@ function Work({value}) {
             <img src={image2} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Mech Ranger</h4>
-                <p>Developing website for managing the Engine so that Admin and user can exchange the information and Technologies used is ReactJS,NodeJs,MongoDB,Express</p>
+                <p>Developing website for managing the Engine so that Admin and user can exchange the information and Technologies used is ReactJs,NodeJS,MongoDB and Express.</p>
                 <a href="https://github.com/prakatesh/machinery-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
@@ -40,7 +40,7 @@ function Work({value}) {
             </div>
          </div>
          <div className="works-box">
-            <img src={image4} alt="" />
+            <img src={image4} style={{width:"100%"}} alt="" />
             <div className="works-layer">
                 <h4>Face Counting</h4>
                 <p>We are use image processing to detect and count the number of faces and Technologies used is OpenCV(python)</p>
@@ -58,7 +58,7 @@ function Work({value}) {
          <div className="works-box">
             <img src={image6} style={{width:"100%"}} alt="" />
             <div className="works-layer">
-                <h4>Simple_Quiz_App_Using_React </h4>
+                <h4>QuizApp-React</h4>
                 <p>Quiz App using ReactJS</p>
                 <a href="https://github.com/prakatesh/Simple_Quiz_App_Using_React"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
