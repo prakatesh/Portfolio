@@ -1,5 +1,6 @@
 import React from 'react'
 import '../asset/style/home.css'
+import resume from '../asset/Image/Prakatesh_Resume.jpg'
 import image from '../asset/Image/pic-removebg-preview.png'
 import Typed from 'typed.js'
 import Navbar from '../component/Navbar'
@@ -25,7 +26,7 @@ function Home({value}) {
                 <a  href="https://www.linkedin.com/in/prakatesh/"><box-icon name='linkedin' type='logo' ></box-icon></a>
                 <a href="https://github.com/prakatesh"><box-icon name='github' type='logo' ></box-icon></a>
             </div>
-            <a className='btn'href="../asset/Image/Prakatesh_Resume" download="">Download CV</a>
+            <a className='btn'href={resume} download>Download CV</a>
         </div>
         <div data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" className="home-img col-md-6">
         <img src={image} alt="al"/>
