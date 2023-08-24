@@ -28,7 +28,7 @@ function Work({value}) {
             <div className="works-layer">
                 <h4>Mech Ranger</h4>
                 <p>Developing website for managing the Engine so that Admin and user can exchange the information and Technologies used is ReactJs,NodeJS,MongoDB and Express.</p>
-                <a href="https://github.com/prakatesh/machinery-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://mech-ranger.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
          </div>
          <div className="works-box" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
